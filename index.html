@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Maersk - shuffle and sort</title>
+  <meta name="description" content="A Maersk recruitment task - shuffle and sort.">
+  <meta name="author" content="Maciej Piór">
+
+  <link href="http://fonts.cdnfonts.com/css/roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="header">
+    <div class="text">
+        Shuffle and Sort
+    </div>
+    <div class="shadow"></div>
+  </div>
+
+  <div class="body">
+    <div class="items" id="container">
+    </div>
+
+    <div class="menu">
+        <button class="m-button stretch" onclick="tileManager.shuffle()">shuffle</button>
+        <button class="m-button stretch" onclick="tileManager.sort()">sort</button>
+    </div>
+  </div>
+
+  <div class="footer">
+    Shuffle and sort by Maciej Piór
+  </div>
+
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
